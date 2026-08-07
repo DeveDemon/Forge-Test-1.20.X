@@ -1,5 +1,7 @@
 {
   "item.testmod_forge.sapphire": "Сапфир",
   "item.testmod_forge.raw_sapphire": "Сапфировая руда",
-  "creativetab.test_mod_tab": "Предметы из тестового мода"
+  "creativetab.test_mod_tab": "Предметы из тестового мода",
+  "block.testmod_forge.sapphire_block": "Сапфировый блок",
+  "block.testmod_forge.raw_sapphire_block": "Блок сапфировой руды"
 }

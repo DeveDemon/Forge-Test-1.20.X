@@ -1,6 +1,7 @@
 package net.devedemon.testmod_forge;
 
 import com.mojang.logging.LogUtils;
+import net.devedemon.testmod_forge.block.ModBlocks;
 import net.devedemon.testmod_forge.item.ModCreativeModTabs;
 import net.devedemon.testmod_forge.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
@@ -28,8 +29,8 @@ public class TestForgeMod {
         IEventBus modEventBus = context.getModEventBus();
 
         ModCreativeModTabs.register(modEventBus);
-
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -46,6 +47,10 @@ public class TestForgeMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
         }
     }
 
