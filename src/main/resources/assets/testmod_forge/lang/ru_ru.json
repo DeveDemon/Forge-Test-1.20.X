@@ -5,5 +5,6 @@
   "block.testmod_forge.sapphire_block": "Сапфировый блок",
   "block.testmod_forge.raw_sapphire_block": "Блок рудного сапфира",
   "block.testmod_forge.sapphire_ore": "Сапфировая руда",
-  "block.testmod_forge.deepslate_sapphire_ore": "Глубинносланцевая сапфировая руда"
+  "block.testmod_forge.deepslate_sapphire_ore": "Глубинносланцевая сапфировая руда",
+  "item.testmod_forge.metal_detector": "Металлоискатель"
 }
