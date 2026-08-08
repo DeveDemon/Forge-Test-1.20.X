@@ -7,5 +7,6 @@
   "block.testmod_forge.sapphire_ore": "Sapphire Ore",
   "block.testmod_forge.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.testmod_forge.sound_block": "Sound Block",
-  "item.testmod_forge.metal_detector": "Metal Detector"
+  "item.testmod_forge.metal_detector": "Metal Detector",
+  "item.testmod_forge.strawberry": "Strawberry"
 }

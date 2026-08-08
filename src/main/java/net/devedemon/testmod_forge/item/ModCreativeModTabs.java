@@ -26,6 +26,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
                         pOutput.accept(ModBlocks.SOUND_BLOCK.get());
+                        pOutput.accept(ModItems.STRAWBERRY.get());
                     })
                     .build());
 

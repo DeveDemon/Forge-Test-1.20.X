@@ -60,6 +60,10 @@ public class TestForgeMod {
             event.accept(ModItems.METAL_DETECTOR);
             event.accept(ModBlocks.SOUND_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
+            event.accept(ModItems.STRAWBERRY);
+        }
+
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
