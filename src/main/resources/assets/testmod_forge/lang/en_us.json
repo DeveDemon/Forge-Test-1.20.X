@@ -3,5 +3,7 @@
   "item.testmod_forge.raw_sapphire": "Raw Sapphire",
   "creativetab.test_mod_tab": "Test Mod Tab",
   "block.testmod_forge.sapphire_block": "Sapphire Block",
-  "block.testmod_forge.raw_sapphire_block": "Raw Sapphire Block"
+  "block.testmod_forge.raw_sapphire_block": "Raw Sapphire Block",
+  "block.testmod_forge.sapphire_ore": "Sapphire Ore",
+  "block.testmod_forge.deepslate_sapphire_ore": "Deepslate Sapphire Ore"
 }

@@ -52,6 +52,10 @@ public class TestForgeMod {
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
         }
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SAPPHIRE_ORE);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
