@@ -47,6 +47,7 @@ public class TestForgeMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModItems.PINE_CONE);
         }
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
@@ -63,6 +64,7 @@ public class TestForgeMod {
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.STRAWBERRY);
         }
+
 
     }
 
