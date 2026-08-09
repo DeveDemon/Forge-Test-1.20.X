@@ -9,5 +9,7 @@
   "block.testmod_forge.sound_block": "Sound Block",
   "item.testmod_forge.metal_detector": "Metal Detector",
   "item.testmod_forge.strawberry": "Strawberry",
-  "item.testmod_forge.pine_cone": "Pine Cone"
+  "item.testmod_forge.pine_cone": "Pine Cone",
+  "tooltip.testmod_forge.metal_detector": "Finds valuables underground!",
+  "tooltip.testmod_forge.sound_block": "Makes didgeridoo sound when right-clicked!"
 }
