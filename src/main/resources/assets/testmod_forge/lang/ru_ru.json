@@ -19,6 +19,7 @@
   "item.testmod_forge.metal_detector": "Металлоискатель",
   "item.testmod_forge.strawberry": "Клубника",
   "item.testmod_forge.pine_cone": "Сосновая шишка",
+  "item.testmod_forge.sapphire_staff": "Сапфировый посох",
   "tooltip.testmod_forge.metal_detector": "Находит ценности под землёй!",
   "tooltip.testmod_forge.sound_block": "Издаёт звук диджириду при взаимодействии!"
 }
