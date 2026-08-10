@@ -4,6 +4,15 @@
     "testmod_forge:sapphire_block",
     "testmod_forge:raw_sapphire_block",
     "testmod_forge:sapphire_ore",
-    "testmod_forge:deepslate_sapphire_ore"
+    "testmod_forge:deepslate_sapphire_ore",
+    "testmod_forge:sapphire_stairs",
+    "testmod_forge:sapphire_slab",
+    "testmod_forge:sapphire_button",
+    "testmod_forge:sapphire_pressure_plate",
+    "testmod_forge:sapphire_fence",
+    "testmod_forge:sapphire_fence_gate",
+    "testmod_forge:sapphire_wall",
+    "testmod_forge:sapphire_door",
+    "testmod_forge:sapphire_trapdoor"
   ]
 }

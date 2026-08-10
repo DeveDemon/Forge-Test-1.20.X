@@ -52,6 +52,13 @@ public class TestForgeMod {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.SAPPHIRE_BLOCK);
             event.accept(ModBlocks.RAW_SAPPHIRE_BLOCK);
+            event.accept(ModBlocks.SAPPHIRE_STAIRS);
+            event.accept(ModBlocks.SAPPHIRE_SLAB);
+            event.accept(ModBlocks.SAPPHIRE_FENCE);
+            event.accept(ModBlocks.SAPPHIRE_FENCE_GATE);
+            event.accept(ModBlocks.SAPPHIRE_WALL);
+            event.accept(ModBlocks.SAPPHIRE_DOOR);
+            event.accept(ModBlocks.SAPPHIRE_TRAPDOOR);
         }
         if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
             event.accept(ModBlocks.SAPPHIRE_ORE);
@@ -59,10 +66,16 @@ public class TestForgeMod {
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.METAL_DETECTOR);
-            event.accept(ModBlocks.SOUND_BLOCK);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.STRAWBERRY);
+        }
+        if(event.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
+            event.accept(ModBlocks.SAPPHIRE_BUTTON);
+            event.accept(ModBlocks.SAPPHIRE_PRESSURE_PLATE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlocks.SOUND_BLOCK);
         }
 
 
