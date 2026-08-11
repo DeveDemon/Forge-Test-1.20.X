@@ -1,9 +1,11 @@
 package net.devedemon.testmod_forge.item;
 
 import net.devedemon.testmod_forge.TestForgeMod;
+import net.devedemon.testmod_forge.entity.ModEntities;
 import net.devedemon.testmod_forge.item.custom.FuelItem;
 import net.devedemon.testmod_forge.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.*;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -40,6 +42,10 @@ public class ModItems {
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, -2.8f, new Item.Properties()));
     public static final RegistryObject<Item> SAPPHIRE_SHOVEL = ITEMS.register("sapphire_shovel",
             () -> new ShovelItem(ModToolTiers.SAPPHIRE, 0, -2.8f, new Item.Properties()));
+
+    public static final RegistryObject<Item> RHINO_SPAWN_EGG = ITEMS.register("rhino_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5,
+                    new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

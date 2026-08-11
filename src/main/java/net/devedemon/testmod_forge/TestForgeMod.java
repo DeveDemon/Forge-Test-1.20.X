@@ -2,8 +2,11 @@ package net.devedemon.testmod_forge;
 
 import com.mojang.logging.LogUtils;
 import net.devedemon.testmod_forge.block.ModBlocks;
+import net.devedemon.testmod_forge.entity.ModEntities;
+import net.devedemon.testmod_forge.entity.client.RhinoRenderer;
 import net.devedemon.testmod_forge.item.ModCreativeModTabs;
 import net.devedemon.testmod_forge.item.ModItems;
+import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +34,8 @@ public class TestForgeMod {
         ModCreativeModTabs.register(modEventBus);
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModEntities.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
@@ -101,7 +106,7 @@ public class TestForgeMod {
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
-
+            EntityRenderers.register(ModEntities.RHINO.get(), RhinoRenderer::new);
         }
     }
 }

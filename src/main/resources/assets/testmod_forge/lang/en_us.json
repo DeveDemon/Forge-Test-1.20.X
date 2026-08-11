@@ -1,6 +1,7 @@
 {
   "item.testmod_forge.sapphire": "Sapphire",
   "item.testmod_forge.raw_sapphire": "Raw Sapphire",
+  "item.testmod_forge.rhino_spawn_egg": "Rhino Spawn Egg",
   "creativetab.test_mod_tab": "Test Mod Tab",
   "block.testmod_forge.sapphire_block": "Sapphire Block",
   "block.testmod_forge.sapphire_stairs": "Sapphire Stairs",
