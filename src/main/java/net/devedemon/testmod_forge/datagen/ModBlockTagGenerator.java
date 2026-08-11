@@ -29,7 +29,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(ModBlocks.SAPPHIRE_ORE.get())
                 .add(ModBlocks.DEEPSLATE_SAPPHIRE_ORE.get());
 
-        this.tag(BlockTags.NEEDS_STONE_TOOL)
+        this.tag(ModTags.Blocks.NEEDS_SAPPHIRE_TOOL)
                 .add(ModBlocks.SOUND_BLOCK.get());
 
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)

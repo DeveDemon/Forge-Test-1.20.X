@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "testmod_forge:item/sapphire_pickaxe"
+  }
+}

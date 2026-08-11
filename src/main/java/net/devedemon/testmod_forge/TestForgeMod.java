@@ -66,6 +66,11 @@ public class TestForgeMod {
         }
         if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
             event.accept(ModItems.METAL_DETECTOR);
+            event.accept(ModItems.SAPPHIRE_STAFF);
+            event.accept(ModItems.SAPPHIRE_PICKAXE);
+            event.accept(ModItems.SAPPHIRE_AXE);
+            event.accept(ModItems.SAPPHIRE_SHOVEL);
+            event.accept(ModItems.SAPPHIRE_HOE);
         }
         if(event.getTabKey() == CreativeModeTabs.FOOD_AND_DRINKS) {
             event.accept(ModItems.STRAWBERRY);
@@ -76,6 +81,10 @@ public class TestForgeMod {
         }
         if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(ModBlocks.SOUND_BLOCK);
+        }
+        if(event.getTabKey() == CreativeModeTabs.COMBAT) {
+            event.accept(ModItems.SAPPHIRE_SWORD);
+            event.accept(ModItems.SAPPHIRE_AXE);
         }
 
 
