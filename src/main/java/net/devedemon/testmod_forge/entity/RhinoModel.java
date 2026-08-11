@@ -133,6 +133,7 @@ public class RhinoModel<T extends Entity> extends HierarchicalModel<T> {
 
 		this.animateWalk(RhinoModelAnimation.RHINO_WALK, limbSwing, limbSwingAmount, 2f, 2.5f);
 		this.animate(((RhinoEntity) entity).idleAnimationState, RhinoModelAnimation.RHINO_IDLE, ageInTicks, 1f);
+		this.animate(((RhinoEntity) entity).attackAnimationState, RhinoModelAnimation.RHINO_ATTACK, ageInTicks, 1f);
 	}
 
 	private void applyHeadRotation(float pNetHeadYaw, float pHeadPitch, float pAgeInTicks) {
